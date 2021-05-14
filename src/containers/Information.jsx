@@ -22,6 +22,7 @@ const Information = ({ history }) => {
             'phone': formData.get('phone'),
         }
         addToBuyer(buyer);
+        history.push('/checkout/payment');
     }
 
     return (

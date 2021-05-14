@@ -26,6 +26,9 @@ npm install react-router-dom --save
 
 ```
 
+- `npm install react-paypal-button --save` Botón de Paypal
+
+
 ## Git Hooks con Husky
 
 Husky es una herramienta que nos permite ejecutar Git Hooks de forma más amigable y sencilla con los cuales vamos a garantizar que se corren las pruebas pertinentes en nuestro código y de esta forma no enviar un bug o inconsistencias al repositorio del proyecto.
@@ -45,3 +48,6 @@ npm install husky --save-dev
     }
   }
 ```
+
+## Recursos
+- [¿Es buena idea usar Paypal como procesador de pagos en mi producto digital?](https://platzi.com/blog/es-buena-idea-usar-paypal-como-procesador-de-pagos-en-mi-producto-digital/)
