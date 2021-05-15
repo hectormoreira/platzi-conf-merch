@@ -1,6 +1,8 @@
 import React from 'react';
 import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
 
+const GMAPSAPI = process.env.GMAPSAPI;
+
 const Map = () => {
     const mapStyles = {
         height: "50vh",
@@ -13,7 +15,7 @@ const Map = () => {
     }
     
     return (
-        <LoadScript googleMapsApiKey='AIzaSyC2Gu3cLPVIs8OXMjH2cLWMiYEXwEsRhTY'>
+        <LoadScript googleMapsApiKey={GMAPSAPI}>
             <GoogleMap
                 mapContainerStyle={mapStyles}
                 zoom={9}

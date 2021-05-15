@@ -28,6 +28,7 @@ npm install react-router-dom --save
 
 - `npm install react-paypal-button --save` Botón de Paypal Package
 - `npm install @react-google-maps/api --save` Google Maps Package
+- `npm install dotenv-webpack -D` Para trabajar con variables de entorno
 
 ## Git Hooks con Husky
 
