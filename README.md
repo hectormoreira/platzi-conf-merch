@@ -35,6 +35,7 @@ npm install axios --save
 - `npm install -g firebase-tools` firebase tools
 - `firebase login:ci` generar token de firebase
 - `npm install react-helmet --save` manejo de meta etiquetas para SEO
+- `npx create-strapi-app platziconf-backend --quickstart` crear nuevo proyecto de Strapi
 
 ## Deploy en Firebase
 Seguir la documentación en [GitHub Action for Firebase](https://github.com/marketplace/actions/github-action-for-firebase)
@@ -64,3 +65,4 @@ npm install husky --save-dev
 - [Crear api key de google maps](https://console.cloud.google.com/)
 - [Position Stack](https://positionstack.com/)
 - [github-action-for-firebase](https://github.com/marketplace/actions/github-action-for-firebase)
+- [Strapi](https://strapi.io/)
