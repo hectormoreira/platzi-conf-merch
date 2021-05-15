@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import AppContext from '../context/AppContext';
 import '../styles/components/Checkout.css';
 import { handleSumTotal } from '../utils/handleSumTotal';
+import {Helmet} from 'react-helmet';
+
 
 const Checkout = () => {
     const { state, removeFromCart } = useContext(AppContext);
@@ -13,6 +15,10 @@ const Checkout = () => {
     }
 
     return (
+        <>
+        <Helmet>
+            <title>Lista de productos - Platzi Conf Merch</title>
+        </Helmet>
         <div className="Checkout">
             <div className="Checkout-content">
                 {cart.length > 0 ? <h3>Lista de productos</h3> : <h3>Carrito vacío</h3>}
@@ -35,6 +41,7 @@ const Checkout = () => {
                 </div>
             )}
         </div>
+        </>
     );
 };
 

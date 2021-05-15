@@ -34,6 +34,7 @@ npm install axios --save
 - `npm install axios --save` axios para peticiones http
 - `npm install -g firebase-tools` firebase tools
 - `firebase login:ci` generar token de firebase
+- `npm install react-helmet --save` manejo de meta etiquetas para SEO
 
 ## Deploy en Firebase
 Seguir la documentación en [GitHub Action for Firebase](https://github.com/marketplace/actions/github-action-for-firebase)
