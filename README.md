@@ -2,6 +2,8 @@
 
 Proyecto del [Curso Profesional de React Hooks de Platzi](https://platzi.com/clases/react-hooks/)
 
+[Proyecto desplegado en Firebase](https://platzi-merch-313714.web.app/)
+
 ## Dependencias
 
 ```sh
