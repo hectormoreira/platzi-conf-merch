@@ -24,11 +24,15 @@ npm install prettier eslint-plugin-prettier eslint-config-prettier
 
 npm install react-router-dom --save
 
+npm install axios --save
+
 ```
 
 - `npm install react-paypal-button --save` Botón de Paypal Package
 - `npm install @react-google-maps/api --save` Google Maps Package
 - `npm install dotenv-webpack -D` Para trabajar con variables de entorno
+- `npm install axios --save` axios para peticiones http
+- `npm install -g firebase-tools` firebase tools
 
 ## Git Hooks con Husky
 
@@ -53,3 +57,4 @@ npm install husky --save-dev
 ## Recursos
 - [¿Es buena idea usar Paypal como procesador de pagos en mi producto digital?](https://platzi.com/blog/es-buena-idea-usar-paypal-como-procesador-de-pagos-en-mi-producto-digital/)
 - [Crear api key de google maps](https://console.cloud.google.com/)
+- [Position Stack](https://positionstack.com/)
