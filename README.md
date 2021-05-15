@@ -26,8 +26,8 @@ npm install react-router-dom --save
 
 ```
 
-- `npm install react-paypal-button --save` Botón de Paypal
-
+- `npm install react-paypal-button --save` Botón de Paypal Package
+- `npm install @react-google-maps/api --save` Google Maps Package
 
 ## Git Hooks con Husky
 
@@ -51,3 +51,4 @@ npm install husky --save-dev
 
 ## Recursos
 - [¿Es buena idea usar Paypal como procesador de pagos en mi producto digital?](https://platzi.com/blog/es-buena-idea-usar-paypal-como-procesador-de-pagos-en-mi-producto-digital/)
+- [Crear api key de google maps](https://console.cloud.google.com/)
